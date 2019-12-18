@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shower Presentation Engine</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="shower/themes/ribbon/styles/styles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+        }
+    </style>
+</head>
+<body class="shower list">
+
+    <header class="caption">
+        <h1>Shower Presentation Engine</h1>
+        <p>Yours Truly, Famous Inc.</p>
+    </header>
+
+    <section class="slide" style="display: flex; flex-direction: column; justify-content: center; text-align: center;">
+        <h2>SSR — Подготовка к production</h2>
+        <p style="font-style: italic;">Никита Юстовский, Tvil.ru</p>
+    </section>
+
+    <section class="slide">
+        <h2>SSR (Server Side Rendering)</h2>
+        <ol>
+            <li class="next">Что это?</li>
+            <li class="next">Зачем?</li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <img class="cover" src="pictures/impatient-dog.jpg" alt="">
+    </section>
+
+    <section class="slide">
+        <img class="cover" src="pictures/seo.jpg" alt="">
+    </section>
+
+    <section class="slide">
+        <h2>Преимущества</h2>
+        <p class="next">Маркетинг доволен</p>
+        <p class="next">Time-to-content</p>
+    </section>
+
+    <section class="slide">
+        <h2>Сложности</h2>
+        <p class="next">Пользовательские данные</p>
+        <p class="next">Фильтры</p>
+        <p class="next">Нагрузка на сервер</p>
+    </section>
+
+    <section class="slide">
+        <p style="text-align: center;">
+            <img src="pictures/nuxt.png" alt="" style="width: 300px; height: auto;">
+        </p>
+        <p>
+            Nuxt.js — это фреймворк для создания приложений на Vue.js. Вы можете выбрать между универсальным,
+            статически-сгенерированным или одностраничным приложением.
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Кэширование</h2>
+        <p class="next">nuxt-ssr-cache</p>
+        <p class="next">cache-manager</p>
+        <p class="next">cache-manager-redis</p>
+    </section>
+
+    <section class="slide">
+        <img class="cover" src="pictures/awesome.webp" alt="">
+    </section>
+
+    <section class="slide">
+        <h2>Увы</h2>
+        <p>
+            <img src="pictures/graph-before.png" alt="">
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Chrome DevTools</h2>
+        <pre><code>node --inspect</code></pre>
+        <pre><code>node_modules/nuxt/bin/nuxt start --port 3000</code></pre>
+    </section>
+
+    <section class="slide">
+        <h2>Heap snapshot</h2>
+        <p><img src="pictures/devtools.png" alt="" style="max-width: 100%;"></p>
+    </section>
+
+    <section class="slide">
+        <h2>nuxt-memwatch</h2>
+        <p><img src="pictures/memwatch-01.png" alt=""></p>
+        <p><img src="pictures/memwatch-02.png" alt=""></p>
+        <p class="next">i18next -> vue-i18n</p>
+    </section>
+
+    <section class="slide">
+        <h2>В итоге</h2>
+        <p>
+            <img src="pictures/graph-after.png" alt="">
+        </p>
+    </section>
+
+    <section class="slide" style="display: flex; flex-direction: column; justify-content: center; text-align: center;">
+        <h2 style="text-align: center;">Спасибо!</h2>
+        <p style="font-style: italic;">@yustnip</p>
+    </section>
+
+    <footer class="badge">
+        <a href="https://github.com/shower/shower">Fork me on GitHub</a>
+    </footer>
+
+    <div class="progress"></div>
+
+    <script src="shower/shower.min.js"></script>
+    <!-- Copyright © 2018 Yours Truly, Famous Inc. -->
+
+</body>
+</html>
