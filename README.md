@@ -1,3 +1,3 @@
-# JSON:API - общаемся по стандарту
+# SSR — Подготовка к production
 
-Слайды доклада для митапа Simferopol Frontend #1.
+Слайды доклада для митапа Simferopol Frontend #4.
